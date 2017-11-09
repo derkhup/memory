@@ -11,9 +11,11 @@
                 if (aantalKlikken % 2 == 0) {
                     alert("even");
                     vorgePlaatje = document.getElementById("duck" + vorigeKlik).src;
-                    huidigPlaatje = document.getElementById("duck" + vorigeKlik).src;
+                    huidigPlaatje = document.getElementById("duck" + teller).src;
                     if (vorgePlaatje == huidigPlaatje ){
                         alert("zelfde");
+                    } else {
+                        alert(vorgePlaatje);
                     }
 
                 } else {
