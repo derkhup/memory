@@ -4,7 +4,11 @@
         
         <script>
         function verander(){
-            alert();
+            var duckvar;
+            
+            duckvar=document.getElementById("duck").value;
+            
+            alert(duckvar);
             
             
         }
@@ -14,9 +18,9 @@
         <title>memory</title>
     </head>
     <body>
-       
-        <img onclick="verander()" src="eend.png" width="210" height="210" alt="eend"/>
-        <img src="eend.png" width="210" height="210" alt="eend"/>
+        <input type="button" id="duck" value="def" onclick="verander()"> 
+<!----        <img onclick="verander()" src="eend.png" id=duck width="210" height="210" alt="eend"  loll/>
+
 
 
  <?php
